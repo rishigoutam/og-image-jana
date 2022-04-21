@@ -133,7 +133,7 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
     `;
 };
 
-export const getContent = (tags, title, handle, logo, css) => {
+export const getContent = (tags, title, subtitle, handle, logo, css) => {
   return `
     <html>
     <meta charset="utf-8">
