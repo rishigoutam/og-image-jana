@@ -10,7 +10,7 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
     box-sizing: border-box;
     font-family: ${ fontFamily ?? 'Nunito'}, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
         'Helvetica Neue', sans-serif;
-    color: white;
+    color: #fffff8;
     }
 
     .container {
