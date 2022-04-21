@@ -2,14 +2,11 @@ import { getAbsoluteURL } from './getAbsoluteUrl';
 
 export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
   return `
-    ${fontFamilyUrl ?? "@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');"}
-
     * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ${ fontFamily ?? 'Nunito'}, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-        'Helvetica Neue', sans-serif;
+    font-family: "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia;
     color: #fffff8;
     }
 
