@@ -7,14 +7,14 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
 
     @font-face {
     font-family: "et-book";
-    src: url("./et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
-    src: url("./et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix")
+    src: url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix")
         format("embedded-opentype"),
-      url("./et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff")
+      url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff")
         format("woff"),
-      url("./et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf")
+      url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf")
         format("truetype"),
-      url("./et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf")
+      url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf")
         format("svg");
     font-weight: normal;
     font-style: normal;
@@ -23,14 +23,14 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
 
     @font-face {
     font-family: "et-book";
-    src: url("./et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
-    src: url("./et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix")
+    src: url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix")
         format("embedded-opentype"),
-      url("./et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff")
+      url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff")
         format("woff"),
-      url("./et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf")
+      url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf")
         format("truetype"),
-      url("./et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf")
+      url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf")
         format("svg");
     font-weight: normal;
     font-style: italic;
@@ -39,14 +39,14 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
 
     @font-face {
     font-family: "et-book";
-    src: url("./et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
-    src: url("./et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix")
+    src: url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix")
         format("embedded-opentype"),
-      url("./et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff")
+      url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff")
         format("woff"),
-      url("./et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf")
+      url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf")
         format("truetype"),
-      url("./et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf")
+      url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf")
         format("svg");
     font-weight: bold;
     font-style: normal;
@@ -55,14 +55,14 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
 
     @font-face {
     font-family: "et-book-roman-old-style";
-    src: url("./et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
-    src: url("./et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix")
+    src: url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix")
         format("embedded-opentype"),
-      url("./et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff")
+      url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff")
         format("woff"),
-      url("./et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf")
+      url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf")
         format("truetype"),
-      url("./et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf")
+      url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf")
         format("svg");
     font-weight: normal;
     font-style: normal;
