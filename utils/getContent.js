@@ -100,7 +100,12 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
 
     .content > h1 {
     max-width: 80%;
-    font-size: ${fontSize ?? "2em"};
+    font-size: ${fontSize ?? "1.8em"};
+    }
+
+    .content > h2 {
+      max-width: 80%;
+      font-size: ${fontSize ?? "1em"};
     }
 
     .logo {
