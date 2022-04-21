@@ -6,7 +6,7 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia;
     color: #151515;
     }
 
