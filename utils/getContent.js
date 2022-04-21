@@ -1,7 +1,74 @@
-import { getAbsoluteURL } from './getAbsoluteUrl';
+import { getAbsoluteURL } from "./getAbsoluteUrl";
 
 export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
   return `
+    /* Import ET Book styles
+    adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
+
+    @font-face {
+    font-family: "et-book";
+    src: url("./et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("./et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix")
+        format("embedded-opentype"),
+      url("./et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff")
+        format("woff"),
+      url("./et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf")
+        format("truetype"),
+      url("./et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf")
+        format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
+    @font-face {
+    font-family: "et-book";
+    src: url("./et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("./et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix")
+        format("embedded-opentype"),
+      url("./et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff")
+        format("woff"),
+      url("./et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf")
+        format("truetype"),
+      url("./et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf")
+        format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+    }
+
+    @font-face {
+    font-family: "et-book";
+    src: url("./et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("./et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix")
+        format("embedded-opentype"),
+      url("./et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff")
+        format("woff"),
+      url("./et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf")
+        format("truetype"),
+      url("./et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf")
+        format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    }
+
+    @font-face {
+    font-family: "et-book-roman-old-style";
+    src: url("./et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("./et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix")
+        format("embedded-opentype"),
+      url("./et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff")
+        format("woff"),
+      url("./et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf")
+        format("truetype"),
+      url("./et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf")
+        format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
     * {
     margin: 0;
     padding: 0;
@@ -33,7 +100,7 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
 
     .content > h1 {
     max-width: 80%;
-    font-size: ${fontSize ?? '2em'};
+    font-size: ${fontSize ?? "2em"};
     }
 
     .logo {
@@ -79,23 +146,25 @@ export const getContent = (tags, title, handle, logo, css) => {
         <div class='container'>
 
         <div class="content">
-            <h1>${title ?? 'Welcome to this site'}</h1>
+            <h1>${title ?? "Welcome to this site"}</h1>
             <div class="tags">
             ${
               tags
                 ? tags
-                    .split(',')
+                    .split(",")
                     .map((tag) => {
                       return `<span key=${tag} class="pill">${tag}</span>`;
                     })
-                    .join('')
-                : ''
+                    .join("")
+                : ""
             }
             </div>
         </div>
         <div class="logo">
-            <img src="${logo ?? getAbsoluteURL(`/memoji.png`)}" alt="logo" width="100px" height="100px" >
-            <div class="handle">${handle ?? '@rishigoutam'}</div>
+            <img src="${
+              logo ?? getAbsoluteURL(`/memoji.png`)
+            }" alt="logo" width="100px" height="100px" >
+            <div class="handle">${handle ?? "@rishigoutam"}</div>
         </div>
         </div>
     </body>
