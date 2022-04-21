@@ -9,19 +9,22 @@ export default function Home() {
   const searchParams = new URLSearchParams(router.asPath.split(/\?/)[1]);
 
   const title = searchParams.get('title');
+  const subtitle = searchParams.get('subtitle');
   const tags = searchParams.get('tags');
 
   const [params, setParams] = useState({
     title: null,
+    subtitle: null || '',
     tags: null || '',
   });
 
   useEffect(() => {
     setParams({
       title,
+      subtitle,
       tags: tags || '',
     });
-  }, [title, tags]);
+  }, [title, subtitle, tags]);
 
   return (
     <div className={'container'}>
@@ -31,6 +34,7 @@ export default function Home() {
 
       <div className="content">
         <h1>{params.title}</h1>
+        <h2><em>{params.subtitle}</em></h2>
         <div className="tags">
           {params.tags.split(',').map((tag) => {
             return <span key={tag}>#{tag}</span>;

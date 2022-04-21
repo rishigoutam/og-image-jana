@@ -147,6 +147,7 @@ export const getContent = (tags, title, handle, logo, css) => {
 
         <div class="content">
             <h1>${title ?? "Welcome to this site"}</h1>
+            <h2><em>${subtitle ?? "Take a look around"}</em></h2>
             <div class="tags">
             ${
               tags

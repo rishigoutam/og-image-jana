@@ -5,10 +5,10 @@ import { getPage } from '../../utils/getPage';
 export default async function handler(req, res) {
   console.info(chalk.cyan('info'), ` - Generating Opengraph images`);
 
-  const { title, tags, handle, logo, debug, fontFamily, fontSize, background, fontFamilyUrl } = req.query;
+  const { title, subtitle, tags, handle, logo, debug, fontFamily, fontSize, background, fontFamilyUrl } = req.query;
 
   const css = getCss(fontFamily, fontFamilyUrl, fontSize, background);
-  const html = getContent(tags, title, handle, logo, css);
+  const html = getContent(tags, title, subtitle, handle, logo, css);
 
   if (debug === 'true') {
     res.setHeader('Content-Type', 'text/html');
