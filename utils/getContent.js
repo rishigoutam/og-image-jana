@@ -122,8 +122,8 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
     }
 
     .pill{
-      background: #caa8ff33;
-      color: white;
+      background: #151515;
+      color: #fffff8;
       padding: 0.25rem 1rem;
       border-radius: 50rem;
       text-transform: capitalize;
