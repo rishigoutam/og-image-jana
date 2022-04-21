@@ -53,21 +53,21 @@ export const getCss = (fontFamily, fontFamilyUrl, fontSize, background) => {
     font-display: swap;
     }
 
-    @font-face {
-    font-family: "et-book-roman-old-style";
-    src: url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
-    src: url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix")
-        format("embedded-opentype"),
-      url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff")
-        format("woff"),
-      url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf")
-        format("truetype"),
-      url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf")
-        format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    }
+    // @font-face {
+    // font-family: "et-book-roman-old-style";
+    // src: url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    // src: url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix")
+    //     format("embedded-opentype"),
+    //   url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff")
+    //     format("woff"),
+    //   url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf")
+    //     format("truetype"),
+    //   url("/fonts/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf")
+    //     format("svg");
+    // font-weight: normal;
+    // font-style: normal;
+    // font-display: swap;
+    // }
 
     * {
     margin: 0;
