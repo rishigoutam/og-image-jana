@@ -97,8 +97,8 @@ export const getContent = (tags, title, handle, logo, css) => {
             </div>
         </div>
         <div class="logo">
-            <img src="${logo ?? getAbsoluteURL(`/logo.svg`)}" alt="logo" width="100px" height="100px" >
-            <div class="handle">${handle ?? '@Jana__Sundar'}</div>
+            <img src="${logo ?? getAbsoluteURL(`/memoji.png`)}" alt="logo" width="100px" height="100px" >
+            <div class="handle">${handle ?? '@rishigoutam'}</div>
         </div>
         </div>
     </body>

@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className={'container'}>
       <Head>
-        <title>JanaSundar</title>
+        <title>Rishi Goutam</title>
       </Head>
 
       <div className="content">
@@ -38,8 +38,8 @@ export default function Home() {
         </div>
       </div>
       <div className="logo">
-        <Image src="/logo.svg" alt="logo" width="100%" height="100%" />
-        <div className="handle">@Jana__Sundar</div>
+        <Image src="/memoji.png" alt="logo" width="100%" height="100%" />
+        <div className="handle">@rishigoutam</div>
       </div>
     </div>
   );
