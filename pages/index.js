@@ -30,23 +30,23 @@ export default function Home() {
     <div className={"container"}>
       <Head>
         <title>Rishi Goutam OG-Image Generator | goutam.io</title>
-        <link
+        {/* <link
           rel="preload"
-          href="/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot"
+          href="/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff"
           as="font"
-          crossOrigin=""
+          crossOrigin="anon"
         />
         <link
           rel="preload"
-          href="/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot"
+          href="/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff"
           as="font"
-          crossOrigin=""
-        />
+          crossOrigin="anon"
+        /> */}
         <link
           rel="preload"
-          href="/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot"
+          href="/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff"
           as="font"
-          crossOrigin=""
+          crossOrigin="anon"
         />
       </Head>
 
