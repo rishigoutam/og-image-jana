@@ -32,19 +32,19 @@ export default function Home() {
         <title>Rishi Goutam OG-Image Generator | goutam.io</title>
         <link
           rel="preload"
-          href="/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf"
+          href="/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot"
           as="font"
           crossOrigin=""
         />
         <link
           rel="preload"
-          href="/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf"
+          href="/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot"
           as="font"
           crossOrigin=""
         />
         <link
           rel="preload"
-          href="/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf"
+          href="/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot"
           as="font"
           crossOrigin=""
         />
