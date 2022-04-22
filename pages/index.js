@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -30,19 +31,19 @@ export default function Home() {
     <div className={"container"}>
       <Head>
         <title>Rishi Goutam OG-Image Generator | goutam.io</title>
-        <link
+        <Link
           rel="preload"
           href="/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot"
           as="font"
           crossOrigin=""
         />
-        <link
+        <Link
           rel="preload"
           href="/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot"
           as="font"
           crossOrigin=""
         />
-        <link
+        <Link
           rel="preload"
           href="/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot"
           as="font"
